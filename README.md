@@ -1,4 +1,4 @@
-# Asset Collaterlization through legacy communication methods
+# Asset Collateralization through legacy communication methods
 
 - [Abstract](#abstract)
 - [Overview of implementation stack](#overview-of-implementation-stack)
@@ -173,7 +173,7 @@ Our primary objective is the financing of tariff duties and imports/exports. CPB
  
 All lent funds are secured by the underlying document, which is transmitted to customs through either Freight Trust or a 3rd party provider.
 
-The process of 'liquidiation', what CBP calls removing the liability against imported cargo, can last up to 11 months and 29 days. That is to say that tariff's paid are really just a deposit: you may end up oweing more than your calculated tariff depending on CBP's assesment. 
+The process of 'liquidation', what CBP calls removing the liability against imported cargo, can last up to 11 months and 29 days. That is to say that tariff's paid are really just a deposit: you may end up owing more than your calculated tariff depending on CBP's assessment. 
  
  
 ###  Clearing, Settlement and Jurisdictional information
@@ -212,7 +212,7 @@ Valuable: The  AS2NG and APIs contribute to the end user company’s bottom line
  
 ### Additional links and documentation
  
-[ASC X12 4010 Message Types can be seen here](https://x12.netlify.app/) this includes the loogs and segments for message types. There is over 900.
+[ASC X12 4010 Message Types can be seen here](https://x12.netlify.app/) this includes the loops and segments for message types. There is over 900.
  
 [A GitHub Repo we created for the Baseline community goes over it in detail](https://github.com/freight-trust/intro-to-edi-format)
 
