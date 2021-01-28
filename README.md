@@ -1,5 +1,7 @@
 # Asset Collateralization through legacy communication methods
 
+[see makerdao topic here](https://forum.makerdao.com/t/premip-collateralization-of-commodities-for-purposes-of-financing-duties-and-tariffs/6262)
+
 - [Abstract](#abstract)
 - [Overview of implementation stack](#overview-of-implementation-stack)
   * [Key Concepts](#key-concepts)
