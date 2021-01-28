@@ -1,9 +1,28 @@
- 
-# Abstract
+# Asset Collaterlization through legacy communication methods
+
+- [Abstract](#abstract)
+- [Overview of implementation stack](#overview-of-implementation-stack)
+  * [Key Concepts](#key-concepts)
+  * [EDI: Electronic Data Interchange](#edi--electronic-data-interchange)
+    + [EDI Example](#edi-example)
+  * [AS2: P2P Business Messaging specification](#as2--p2p-business-messaging-specification)
+    + [What is AS2/AS2NG and why does it matter?](#what-is-as2-as2ng-and-why-does-it-matter-)
+    + [AS2 Message UML](#as2-message-uml)
+- [Tokenization](#tokenization)
+  * [Tokenization Procedure](#tokenization-procedure)
+  * [Clearing, Settlement and Jurisdictional information](#clearing--settlement-and-jurisdictional-information)
+    + [Corporate Policies and Procedures](#corporate-policies-and-procedures)
+    + [No Action Letter Request to CFTC](#no-action-letter-request-to-cftc)
+  * [Business Assessment](#business-assessment)
+  * [Additional links and documentation](#additional-links-and-documentation)
+
+
+## Abstract
  
 We propose the financing of international customs shipments by leveraging EDI data messaging through AS2 and combined with a centralized clearing party (freightttrust and clearing) to provide reduced friction in enabling container shipments, tariffs, duties and other import/export excise taxes to be financed through the MakerDAO platform.
 
- 
+We invite the MakerDAO community to improve on this proposal, both in helping decentralizing the parts that are currently centralized, and in leveraging additional markets that are possible: EDI messaging is found everywhere in the business world. 
+
 ## Overview of implementation stack
  
 ### Key Concepts
@@ -130,6 +149,10 @@ AS2NG Protocol server may be located here: [AS2ng github repo](https://github.co
 [LibInterchange, a library of all the various EDI schemas and formats that exist, available](https://github.com/as2network/libInterchange)
  
  
+#### AS2 Message UML
+
+ ![](https://cdn-images-1.medium.com/max/1600/1*YZ6xPXPF77KowtWOUwZg3g.png)
+
 ## Tokenization
  
 Tokenization is handled through our [ 'TrueNFT' application ](https://freight-trust.github.io/truenft/). This Tokenization framework is a basic implementation, other variants are under consideration.
@@ -149,6 +172,8 @@ Our primary objective is the financing of tariff duties and imports/exports. CPB
 ![](customs_overview.png)
  
 All lent funds are secured by the underlying document, which is transmitted to customs through either Freight Trust or a 3rd party provider.
+
+The process of 'liquidiation', what CBP calls removing the liability against imported cargo, can last up to 11 months and 29 days. That is to say that tariff's paid are really just a deposit: you may end up oweing more than your calculated tariff depending on CBP's assesment. 
  
  
 ###  Clearing, Settlement and Jurisdictional information
